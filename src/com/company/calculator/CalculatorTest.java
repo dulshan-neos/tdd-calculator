@@ -7,11 +7,6 @@ import static org.junit.Assert.assertTrue;
 
 public class CalculatorTest {
 
-    @Test
-    public void whenCalculatorInitializedThenReturnTrue() {
-        Calculator calculator = new Calculator();
-        assertTrue(calculator.getStatus());
-    }
 
     @Test
     public void whenAdditionTwoNumberThenReturnCorrectAnswer() {
